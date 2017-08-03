@@ -17,7 +17,7 @@
             <div class="hero-unit">
                 <h1>Simple PHP App</h1>
                 <h2>Congratulations</h2>
-                <p><font size="7" color="red"> Your PHP application is now running on a container in Amazon ECS</font></p>
+                <p><font size="5" color="red"> Your PHP application is now running on a container in Amazon ECS</font></p>
                 <p>The container is running PHP version <?php echo phpversion(); ?>.</p>
                 <?php
                         $myfile = fopen("/var/www/my-vol/date", "r") or die("");
